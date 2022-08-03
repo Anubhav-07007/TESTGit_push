@@ -13,6 +13,14 @@ d={
 
 #print(d)
 
+
+
+e={
+    "name":"anubhav",
+    "email":"anubhav@gmail.com",
+    "surname":"kumar"
+}
+
 db1=client['mongodb']
 coll=db1['test']
 coll.insert_one(d)
